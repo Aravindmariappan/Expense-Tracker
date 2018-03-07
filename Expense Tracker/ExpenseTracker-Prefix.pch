@@ -1,0 +1,14 @@
+//
+//  ExpenseTracker-Prefix.pch
+//  Expense Tracker
+//
+//  Created by Aravind on 01/12/17.
+//  Copyright © 2017 Aravind. All rights reserved.
+//
+
+#ifndef ExpenseTracker_Prefix_pch
+#define ExpenseTracker_Prefix_pch
+
+#import "ETDatabaseHandler.h"
+
+#endif /* ExpenseTracker_Prefix_pch */

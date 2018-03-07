@@ -15,6 +15,16 @@
 		F24BD68E1FD13892005D5A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD68D1FD13892005D5A3B /* main.m */; };
 		F24BD6981FD13893005D5A3B /* Expense_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6971FD13893005D5A3B /* Expense_TrackerTests.m */; };
 		F24BD6AE1FD139D6005D5A3B /* ETTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6AC1FD139D6005D5A3B /* ETTodayViewController.m */; };
+		F24BD6B11FD13BF1005D5A3B /* ETAddExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6B01FD13BF1005D5A3B /* ETAddExpenseViewController.m */; };
+		F24BD6B41FD13EA3005D5A3B /* ETDatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6B31FD13EA3005D5A3B /* ETDatabaseHandler.m */; };
+		F24BD6B91FD142B9005D5A3B /* ETAddExpenseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6B81FD142B9005D5A3B /* ETAddExpenseViewModel.m */; };
+		F24BD6BC1FD1531C005D5A3B /* ETTodayExpenseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6BB1FD1531C005D5A3B /* ETTodayExpenseViewModel.m */; };
+		F24BD6C11FD15525005D5A3B /* ExpenseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6BF1FD15525005D5A3B /* ExpenseTableViewCell.m */; };
+		F24BD6C21FD15525005D5A3B /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24BD6C01FD15525005D5A3B /* ExpenseTableViewCell.xib */; };
+		F24BD6C51FD15785005D5A3B /* ETExpenseCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BD6C41FD15785005D5A3B /* ETExpenseCellViewModel.m */; };
+		F25B1A801FD1731E0082623F /* ETCategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B1A7F1FD1731E0082623F /* ETCategoryListViewController.m */; };
+		F25B1A831FD17E9B0082623F /* ETStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B1A821FD17E9B0082623F /* ETStatsViewController.m */; };
+		F25B1A861FD191790082623F /* ETAllExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B1A851FD191790082623F /* ETAllExpensesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,26 @@
 		F24BD6991FD13893005D5A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24BD6AC1FD139D6005D5A3B /* ETTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETTodayViewController.m; path = "Expense Tracker/View/View Controller/ETTodayViewController.m"; sourceTree = SOURCE_ROOT; };
 		F24BD6AD1FD139D6005D5A3B /* ETTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETTodayViewController.h; path = "Expense Tracker/View/View Controller/ETTodayViewController.h"; sourceTree = SOURCE_ROOT; };
+		F24BD6AF1FD13BF1005D5A3B /* ETAddExpenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ETAddExpenseViewController.h; path = "Expense Tracker/View/View Controller/ETAddExpenseViewController.h"; sourceTree = SOURCE_ROOT; };
+		F24BD6B01FD13BF1005D5A3B /* ETAddExpenseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ETAddExpenseViewController.m; path = "Expense Tracker/View/View Controller/ETAddExpenseViewController.m"; sourceTree = SOURCE_ROOT; };
+		F24BD6B21FD13EA3005D5A3B /* ETDatabaseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETDatabaseHandler.h; sourceTree = "<group>"; };
+		F24BD6B31FD13EA3005D5A3B /* ETDatabaseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETDatabaseHandler.m; sourceTree = "<group>"; };
+		F24BD6B61FD14012005D5A3B /* ExpenseTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpenseTracker-Prefix.pch"; sourceTree = "<group>"; };
+		F24BD6B71FD142B9005D5A3B /* ETAddExpenseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAddExpenseViewModel.h; sourceTree = "<group>"; };
+		F24BD6B81FD142B9005D5A3B /* ETAddExpenseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAddExpenseViewModel.m; sourceTree = "<group>"; };
+		F24BD6BA1FD1531C005D5A3B /* ETTodayExpenseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTodayExpenseViewModel.h; sourceTree = "<group>"; };
+		F24BD6BB1FD1531C005D5A3B /* ETTodayExpenseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETTodayExpenseViewModel.m; sourceTree = "<group>"; };
+		F24BD6BE1FD15525005D5A3B /* ExpenseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpenseTableViewCell.h; sourceTree = "<group>"; };
+		F24BD6BF1FD15525005D5A3B /* ExpenseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseTableViewCell.m; sourceTree = "<group>"; };
+		F24BD6C01FD15525005D5A3B /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		F24BD6C31FD15785005D5A3B /* ETExpenseCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETExpenseCellViewModel.h; sourceTree = "<group>"; };
+		F24BD6C41FD15785005D5A3B /* ETExpenseCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETExpenseCellViewModel.m; sourceTree = "<group>"; };
+		F25B1A7E1FD1731E0082623F /* ETCategoryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ETCategoryListViewController.h; path = "Expense Tracker/ViewModel/ETCategoryListViewController.h"; sourceTree = SOURCE_ROOT; };
+		F25B1A7F1FD1731E0082623F /* ETCategoryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ETCategoryListViewController.m; path = "Expense Tracker/ViewModel/ETCategoryListViewController.m"; sourceTree = SOURCE_ROOT; };
+		F25B1A811FD17E9B0082623F /* ETStatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ETStatsViewController.h; path = "Expense Tracker/ViewModel/ETStatsViewController.h"; sourceTree = SOURCE_ROOT; };
+		F25B1A821FD17E9B0082623F /* ETStatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ETStatsViewController.m; path = "Expense Tracker/ViewModel/ETStatsViewController.m"; sourceTree = SOURCE_ROOT; };
+		F25B1A841FD191790082623F /* ETAllExpensesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ETAllExpensesViewController.h; path = "Expense Tracker/ViewModel/ETAllExpensesViewController.h"; sourceTree = SOURCE_ROOT; };
+		F25B1A851FD191790082623F /* ETAllExpensesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ETAllExpensesViewController.m; path = "Expense Tracker/ViewModel/ETAllExpensesViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +125,7 @@
 				F24BD68C1FD13892005D5A3B /* Info.plist */,
 				F24BD68D1FD13892005D5A3B /* main.m */,
 				F24BD6841FD13892005D5A3B /* Expense_Tracker.xcdatamodeld */,
+				F24BD6B61FD14012005D5A3B /* ExpenseTracker-Prefix.pch */,
 			);
 			path = "Expense Tracker";
 			sourceTree = "<group>";
@@ -111,6 +142,12 @@
 		F24BD6A21FD138C0005D5A3B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F24BD6B71FD142B9005D5A3B /* ETAddExpenseViewModel.h */,
+				F24BD6B81FD142B9005D5A3B /* ETAddExpenseViewModel.m */,
+				F24BD6BA1FD1531C005D5A3B /* ETTodayExpenseViewModel.h */,
+				F24BD6BB1FD1531C005D5A3B /* ETTodayExpenseViewModel.m */,
+				F24BD6C31FD15785005D5A3B /* ETExpenseCellViewModel.h */,
+				F24BD6C41FD15785005D5A3B /* ETExpenseCellViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,6 +162,8 @@
 		F24BD6A51FD1390F005D5A3B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F24BD6B21FD13EA3005D5A3B /* ETDatabaseHandler.h */,
+				F24BD6B31FD13EA3005D5A3B /* ETDatabaseHandler.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,6 +171,7 @@
 		F24BD6A61FD1392B005D5A3B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F24BD6BD1FD15503005D5A3B /* TableViewCells */,
 				F24BD6AB1FD1399E005D5A3B /* ViewController */,
 			);
 			path = View;
@@ -142,9 +182,27 @@
 			children = (
 				F24BD6AD1FD139D6005D5A3B /* ETTodayViewController.h */,
 				F24BD6AC1FD139D6005D5A3B /* ETTodayViewController.m */,
+				F24BD6AF1FD13BF1005D5A3B /* ETAddExpenseViewController.h */,
+				F24BD6B01FD13BF1005D5A3B /* ETAddExpenseViewController.m */,
+				F25B1A7E1FD1731E0082623F /* ETCategoryListViewController.h */,
+				F25B1A7F1FD1731E0082623F /* ETCategoryListViewController.m */,
+				F25B1A811FD17E9B0082623F /* ETStatsViewController.h */,
+				F25B1A821FD17E9B0082623F /* ETStatsViewController.m */,
+				F25B1A841FD191790082623F /* ETAllExpensesViewController.h */,
+				F25B1A851FD191790082623F /* ETAllExpensesViewController.m */,
 			);
 			name = ViewController;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F24BD6BD1FD15503005D5A3B /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F24BD6BE1FD15525005D5A3B /* ExpenseTableViewCell.h */,
+				F24BD6BF1FD15525005D5A3B /* ExpenseTableViewCell.m */,
+				F24BD6C01FD15525005D5A3B /* ExpenseTableViewCell.xib */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24BD6C21FD15525005D5A3B /* ExpenseTableViewCell.xib in Resources */,
 				F24BD68B1FD13892005D5A3B /* LaunchScreen.storyboard in Resources */,
 				F24BD6881FD13892005D5A3B /* Assets.xcassets in Resources */,
 				F24BD6831FD13892005D5A3B /* Main.storyboard in Resources */,
@@ -249,10 +308,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24BD6C51FD15785005D5A3B /* ETExpenseCellViewModel.m in Sources */,
+				F25B1A831FD17E9B0082623F /* ETStatsViewController.m in Sources */,
 				F24BD6861FD13892005D5A3B /* Expense_Tracker.xcdatamodeld in Sources */,
+				F25B1A801FD1731E0082623F /* ETCategoryListViewController.m in Sources */,
 				F24BD6AE1FD139D6005D5A3B /* ETTodayViewController.m in Sources */,
+				F24BD6C11FD15525005D5A3B /* ExpenseTableViewCell.m in Sources */,
+				F24BD6BC1FD1531C005D5A3B /* ETTodayExpenseViewModel.m in Sources */,
+				F24BD6B11FD13BF1005D5A3B /* ETAddExpenseViewController.m in Sources */,
 				F24BD68E1FD13892005D5A3B /* main.m in Sources */,
+				F24BD6B41FD13EA3005D5A3B /* ETDatabaseHandler.m in Sources */,
 				F24BD67D1FD13892005D5A3B /* AppDelegate.m in Sources */,
+				F24BD6B91FD142B9005D5A3B /* ETAddExpenseViewModel.m in Sources */,
+				F25B1A861FD191790082623F /* ETAllExpensesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +400,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Expense Tracker/ExpenseTracker-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -385,6 +454,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Expense Tracker/ExpenseTracker-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

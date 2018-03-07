@@ -1,25 +1,25 @@
 //
-//  ETTodayViewController.m
+//  ETAllExpensesViewController.m
 //  Expense Tracker
 //
 //  Created by Aravind on 01/12/17.
 //  Copyright © 2017 Aravind. All rights reserved.
 //
 
-#import "ETTodayViewController.h"
+#import "ETAllExpensesViewController.h"
 #import "ETAddExpenseViewController.h"
 #import "ETAddExpenseViewModel.h"
 #import "ETTodayExpenseViewModel.h"
 #import "ExpenseTableViewCell.h"
 
-@interface ETTodayViewController()<UITableViewDelegate, UITableViewDataSource>
+@interface ETAllExpensesViewController()<UITableViewDelegate, UITableViewDataSource>
 
 @property ETTodayExpenseViewModel *todayExpenseViewModel;
 @property (weak, nonatomic) IBOutlet UITableView *expensesTableView;
 
 @end
 
-@implementation ETTodayViewController
+@implementation ETAllExpensesViewController
 
 #pragma mark - View-controller Life-cycle
 
@@ -43,11 +43,11 @@
 }
 
 - (void)configureViewModel {
-    self.todayExpenseViewModel = [[ETTodayExpenseViewModel alloc] initWithTodayExpenses];
+    self.todayExpenseViewModel = [[ETTodayExpenseViewModel alloc] initWithAllExpenses];
 }
 
- #pragma mark - Navigation
- 
+#pragma mark - Navigation
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     UIViewController *destinationViewController = segue.destinationViewController;
     if ([destinationViewController isKindOfClass:[ETAddExpenseViewController class]]) {
@@ -79,3 +79,4 @@
 }
 
 @end
+
